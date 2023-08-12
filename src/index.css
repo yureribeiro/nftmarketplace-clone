@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400;10..48,600&family=Josefin+Sans&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --green: #D6EF0E;
+  --white: #FFFFFF;
+  --background-black: #1E1E1E;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bricolage Grotesque';
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-black);
+}
